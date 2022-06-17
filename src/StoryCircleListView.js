@@ -24,6 +24,7 @@ const StoryCircleListView = (props) => {
                 showsVerticalScrollIndicator={false}
                 showsHorizontalScrollIndicator={false}
                 ListFooterComponent={<View style={{flex: 1, width: 8}}/>}
+                contentContainerStyle={style}
                 renderItem={({item, index}) => (
                     <StoryCircleListItem
                         avatarSize={avatarSize}
